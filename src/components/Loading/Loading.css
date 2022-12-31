@@ -1,0 +1,15 @@
+#loading-img{
+    width:40%
+}
+.Loading-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#loading-text{
+    color: rgb(59, 59, 199);
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

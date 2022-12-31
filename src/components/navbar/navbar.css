@@ -1,0 +1,45 @@
+.landing-navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.8rem 3rem;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 12;
+	background-color: var(--gradient-bg);
+	backdrop-filter: blur(12px);
+	border-bottom: 1px solid rgb(202, 199, 199);
+}
+
+.landing-navbar .landing-navbar-links {
+	gap: 5rem;
+	display: flex;
+	font-weight: 500;
+	font-size: 1.1rem;
+	margin: 0 4rem;
+	background-color: transparent;
+}
+
+
+.landing-navbar .landing-navbar-links p {
+	color: var(--color-navlinks);
+	background-color: var(--gradient-bg);
+	transition: 0.2s all ease;
+}
+
+.landing-navbar .landing-navbar-links p:hover {
+	color: rgb(184, 183, 183);
+}
+
+.landing-navbar-logo img {
+	width: 65%;
+	color: var(--color-navlinks);
+	background-color: var(--gradient-bg);
+	backdrop-filter: blur(12px);
+}
+.options-navbar{
+	background-color: var(--gradient-bg);
+	backdrop-filter: blur(12px);
+}

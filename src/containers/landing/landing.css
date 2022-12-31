@@ -1,0 +1,235 @@
+.landing-page {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 6rem 1rem;
+}
+.heading-container-main{
+	display:flex;
+	width:100%;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.gradient-text{
+	margin: 0%;
+	background-color: rgb(42, 93, 211);
+}
+.heading-container-1{
+	width:60%;
+}
+.heading-container-2{
+	width:40%;
+}
+#img1{
+	width:100%;
+}
+.landing-content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	max-width: 45rem;
+	gap: 2rem;
+	margin: 5rem 0 0;
+}
+
+.landing-content .headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.landing-content .headings .sub-text {
+	font-weight: 600;
+	font-size: 3.6rem;
+	letter-spacing: -2px;
+	color: var(--color-heading);
+}
+
+.landing-content .headings .main-heading {
+	font-weight: 700;
+	font-size: 3.8rem;
+	letter-spacing: -2px;
+}
+
+.landing-content .desc {
+	color: rgb(111, 110, 109);
+	font-size: 1.4rem;
+}
+
+.landing-cta {
+	margin: 4rem 0 8rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 3rem;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.landing-cta .input-item {
+	max-width: 35rem;
+	min-width: 30rem;
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+
+.landing-cta .desc {
+	color: var(--color-text);
+	font-weight: 600;
+	/* font-size: 1rem; */
+}
+
+/* LANDING SECTION - 2 */
+
+.features-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	padding: 4rem 2rem;
+	height: 100vh;
+}
+.title-heading{
+	margin: 0%;
+	/* margin-top: 20vh; */
+	/* margin-bottom: 40px; */
+}
+.features-content .curr-heading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
+	color:black;
+}
+
+.features-content p {
+	font-size: 1.5rem;
+	background-color: transparent;
+	color: #417ceb;
+}
+
+.features-content h2 {
+	font-size: 3rem;
+}
+.feature-img{
+	width:80%;
+	display: flex;
+	margin-left: 5px;
+}
+.feature-1{
+	background-color: #F7F1F8;
+	
+}
+.feature-2{
+	background-color: #fff;
+}
+.single-feature{
+	border: 1px solid rgb(211, 206, 206);
+	box-shadow: 0px 2px 8px 1px #b5bac6 ;
+	padding: 10vh;
+	border-radius: 10px;
+	color: #22304f;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.features-content .all-features {
+	width:100%;
+	display: grid;
+	justify-content: space-evenly;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 4rem 8rem;
+}
+.feature-text{
+	font-size: 4rem;;
+}
+
+.features-content .all-features .single-feature {
+	text-align: center;
+}
+
+.mid-cta{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 2rem;
+	text-align: center;
+	color: var(--color-text);
+}
+.phew {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 1.5rem;
+	text-align: center;
+	color: var(--color-text);
+}
+
+#head-text{
+	text-decoration: solid;
+	/* background-color: black; */
+	color:white
+}
+
+.features-content .mid-cta,
+.final-features .mid-cta {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	gap: 3rem;
+}
+.mid-cta{
+	margin-top: 30px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* LANDING SECTION - 3 */
+
+.final-features {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 6rem 0;
+}
+
+.final-features .top-sec {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 4rem;
+	margin: 2rem;
+}
+
+.final-features .top-sec .left-text,
+.final-features .top-sec .right-text {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.final-features .top-sec .right-text {
+	text-align: right;
+}
+
+.final-features .top-sec .left-text h3,
+.final-features .top-sec .right-text h3 {
+	font-weight: 500;
+	font-size: 1.7rem;
+}
+
+.final-features .top-sec .left-text h1,
+.final-features .top-sec .right-text h1 {
+	font-weight: 600;
+	font-size: 2.5rem;
+}
+
+.final-features .top-sec .infinite {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.final-features .top-sec .infinite img {
+	width: 12rem;
+}
+
+.final-features .final-cta {
+	margin: 5rem;
+}
